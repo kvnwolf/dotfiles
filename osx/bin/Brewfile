@@ -1,0 +1,3 @@
+brew "gh"
+brew "jq"
+brew "tree"
