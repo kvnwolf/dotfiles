@@ -1,3 +1,5 @@
 brew "gh"
 brew "jq"
 brew "tree"
+brew "n"
+brew "yarn"

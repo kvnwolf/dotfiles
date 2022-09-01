@@ -131,5 +131,9 @@ function gacp () { gac $1 && gp }
 alias gac!="gaa && gcan!"
 alias gacp!="gac! && gpf!"
 
+# N
+export N_PREFIX=$HOME/.n
+export PATH=$N_PREFIX/bin:$PATH
+
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh

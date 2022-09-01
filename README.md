@@ -26,6 +26,10 @@ The following binaries will be installed and made available for immediate use:
 - [`gh`](https://cli.github.com/)
 - [`jq`](https://stedolan.github.io/jq/)
 - [`tree`](http://mama.indstate.edu/users/ice/tree/)
+- [`n`](https://www.npmjs.com/package/n)
+- [`node`](https://nodejs.org)
+- [`npm`](https://npmjs.com)
+- [`yarn`](https://yarnpkg.com/)
 
 > You can skip binaries installation by passing `SKIP_BINARIES=true` to the `install.sh` script.
 
