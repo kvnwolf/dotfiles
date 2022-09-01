@@ -2,7 +2,7 @@
 # Initialization code that may require console input (password prompts, [y/n]
 # confirmations, etc.) must go above this block; everything else may go below.
 if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
-	source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
+  source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
 fi
 
 # If you come from bash you might have to change your $PATH.
@@ -78,10 +78,10 @@ ZSH_THEME="powerlevel10k/powerlevel10k"
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(
-	git
-	zsh-autosuggestions
-	zsh-completions
-	zsh-syntax-highlighting
+  git
+  zsh-autosuggestions
+  zsh-completions
+  zsh-syntax-highlighting
 )
 
 autoload -U compinit && compinit
@@ -92,7 +92,7 @@ source $ZSH/oh-my-zsh.sh
 
 # Add `brew` to path if using Apple Silicon (https://stackoverflow.com/questions/65487249/getting-a-warning-when-installing-homebrew-on-macos-big-sur-m1-chip)
 if [[ "$(uname -m)" == "arm64" ]]; then
-	export PATH="/opt/homebrew/bin:${PATH}"
+  export PATH="/opt/homebrew/bin:${PATH}"
 fi
 
 # export MANPATH="/usr/local/man:$MANPATH"

@@ -1,20 +1,18 @@
-# 💻 Kevin Wolf's Dotfiles
+# 💻 Full Stack Jedi's Dotfiles
 
 ![Terminal](./.github/images/terminal.png)
 
 ## What is this?
 
-A set of shell scripts used to setup a new OSX or Alpine (for Docker) system using opinionated tools and conventions.
+A set of shell scripts used to setup a new OSX system using opinionated tools and conventions.
 
 ## Pre-requisites
 
 This setup uses [Oh My ZSH](https://ohmyz.sh) with the [Powerlevel10k](https://github.com/romkatv/powerlevel10k#meslo-nerd-font-patched-for-powerlevel10k) theme. So make sure to configure your terminal to use the [Meslo Nerd Font](https://github.com/romkatv/powerlevel10k#meslo-nerd-font-patched-for-powerlevel10k).
 
-> When installing in an Alpine image, you will need to manually install `git` to be able to clone the repo. Refer to [this Dockerfile](https://github.com/elkevinwolf/docker-images/blob/main/base/Dockerfile).
-
 ## Usage
 
-1. Clone this repo: `git clone --recursive https://github.com/elkevinwolf/dotfiles`
+1. Clone this repo: `git clone --recursive https://github.com/fullstackjedi/dotfiles`
 2. Run the setup script: `sh install.sh`
 3. Enjoy your new setup! 🍻
 
@@ -24,10 +22,10 @@ This setup uses [Oh My ZSH](https://ohmyz.sh) with the [Powerlevel10k](https://g
 
 The following binaries will be installed and made available for immediate use:
 
+- [`brew`](https://brew.sh/index_es)
 - [`gh`](https://cli.github.com/)
 - [`jq`](https://stedolan.github.io/jq/)
 - [`tree`](http://mama.indstate.edu/users/ice/tree/)
-- [`brew`](https://brew.sh/index_es) (OSX only)
 
 > You can skip binaries installation by passing `SKIP_BINARIES=true` to the `install.sh` script.
 
