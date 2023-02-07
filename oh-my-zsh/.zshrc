@@ -135,5 +135,10 @@ alias gacp!="gac! && gpf!"
 export N_PREFIX=$HOME/.n
 export PATH=$N_PREFIX/bin:$PATH
 
+# pnpm
+export PNPM_HOME="/Users/kevinwolf/Library/pnpm"
+export PATH="$PNPM_HOME:$PATH"
+# pnpm end
+
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh

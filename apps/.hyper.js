@@ -9,7 +9,7 @@ module.exports = {
     updateChannel: "stable",
 
     // default font size in pixels for all tabs
-    fontSize: 12,
+    fontSize: 14,
 
     // font family with optional fallbacks
     fontFamily: "MesloLGS NF",
@@ -21,10 +21,10 @@ module.exports = {
     fontWeightBold: "bold",
 
     // line height as a relative unit
-    lineHeight: 1.3,
+    lineHeight: 1.5,
 
     // letter spacing as a relative unit
-    letterSpacing: 2,
+    letterSpacing: 1,
 
     // terminal cursor background color and opacity (hex, rgb, hsl, hsv, hwb or cmyk)
     cursorColor: "rgba(248,28,229,0.8)",

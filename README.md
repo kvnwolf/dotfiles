@@ -1,4 +1,4 @@
-# 💻 Full Stack Jedi's Dotfiles
+# 💻 Kevin Wolf's Dotfiles
 
 ![Terminal](./.github/images/terminal.png)
 
@@ -12,7 +12,7 @@ This setup uses [Oh My ZSH](https://ohmyz.sh) with the [Powerlevel10k](https://g
 
 ## Usage
 
-1. Clone this repo: `git clone --recursive https://github.com/fullstackjedi/dotfiles`
+1. Clone this repo: `git clone --recursive https://github.com/elkevinwolf/dotfiles`
 2. Run the setup script: `sh install.sh`
 3. Enjoy your new setup! 🍻
 
@@ -28,10 +28,6 @@ The following binaries will be installed and made available for immediate use:
 - [`tree`](http://mama.indstate.edu/users/ice/tree/)
 - [`n`](https://www.npmjs.com/package/n)
 - [`node`](https://nodejs.org)
-- [`npm`](https://npmjs.com)
-- [`yarn`](https://yarnpkg.com/)
-
-> You can skip binaries installation by passing `SKIP_BINARIES=true` to the `install.sh` script.
 
 ### Apps
 
@@ -47,9 +43,6 @@ Additionally, if running on OSX, the following apps will be installed:
 - [Slack](https://slack.com/intl/en-cr/)
 - [Visual Studio Code](https://code.visualstudio.com/)
 - [WhatsApp](https://www.whatsapp.com/)
-- [Zoom](https://www.zoom.us/)
-
-> You can skip apps installation by passing `SKIP_APPS=true` to the `install.sh` script.
 
 ### Oh my ZSH
 
@@ -89,5 +82,3 @@ Oh my ZSH will be downloaded and installed with the following configuration:
 | `gacp`  | stage all files, commit with a message and push           | `gacp "my commit message"` |
 | `gac!`  | stage all files and overwrite previous commit             | `gac!`                     |
 | `gacp!` | stage all files, overwrite previous commit and force-push | `gacp!`                    |
-
-> You can skip the Oh My ZSH setup by passing `SKIP_OMZ=true` to the `install.sh` script

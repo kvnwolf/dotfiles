@@ -5,7 +5,7 @@ export DOTFILES_DIR=$(pwd)
 clear
 echo ""
 echo ""
-echo "🐺 Welcome to Full Stack Jedi's configuration dotfiles"
+echo "🐺 Welcome to Kevin Wolf's configuration dotfiles"
 echo "🏗  Setting up your system..."
 
 export DOTFILES_OMZ_DIR="${DOTFILES_DIR}/oh-my-zsh"
