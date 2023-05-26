@@ -135,6 +135,23 @@ alias gacp!="gac! && gpf!"
 export N_PREFIX=$HOME/.n
 export PATH=$N_PREFIX/bin:$PATH
 
+load-node-version() {
+  local searchPath=$(pwd)
+  local resolvedPath=""
+
+  while
+    resolvedPath=$(find "$searchPath/.node-version" -maxdepth 1 2>/dev/null)
+    [[ -z $resolvedPath ]] && [[ $searchPath != "/" ]]
+  do searchPath=$(dirname $searchPath); done
+
+  if [[ $resolvedPath ]] && [[ $(node --version) != $(cat $resolvedPath) ]]; then
+    n auto
+  fi
+}
+
+add-zsh-hook chpwd load-node-version
+load-node-version
+
 # pnpm
 export PNPM_HOME="/Users/kevinwolf/Library/pnpm"
 export PATH="$PNPM_HOME:$PATH"
