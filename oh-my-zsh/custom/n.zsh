@@ -28,7 +28,7 @@ load-node-version() {
     fi
   fi
 
-  if [[ $nodeVersion ]] && [[ $(node --version) != "v$nodeVersion" ]]; then
+  if [[ $nodeVersion ]] && [[ $nodeVersion != "null" ]] && [[ $(node --version) != "v$nodeVersion" ]]; then
     n $nodeVersion
   fi
 }
