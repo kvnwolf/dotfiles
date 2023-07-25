@@ -131,31 +131,13 @@ function gacp () { gac $1 && gp }
 alias gac!="gaa && gcan!"
 alias gacp!="gac! && gpf!"
 
-# N
-export N_PREFIX=$HOME/.n
-export PATH=$N_PREFIX/bin:$PATH
-
-load-node-version() {
-  local searchPath=$(pwd)
-  local resolvedPath=""
-
-  while
-    resolvedPath=$(find "$searchPath/.node-version" -maxdepth 1 2>/dev/null)
-    [[ -z $resolvedPath ]] && [[ $searchPath != "/" ]]
-  do searchPath=$(dirname $searchPath); done
-
-  if [[ $resolvedPath ]] && [[ $(node --version) != $(cat $resolvedPath) ]]; then
-    n auto
-  fi
-}
-
-add-zsh-hook chpwd load-node-version
-load-node-version
-
 # pnpm
 export PNPM_HOME="/Users/kevinwolf/Library/pnpm"
 export PATH="$PNPM_HOME:$PATH"
 # pnpm end
+
+# docker
+export PATH="$PATH:/Applications/Docker.app/Contents/Resources/bin/"
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh

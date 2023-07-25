@@ -11,6 +11,6 @@ echo "✅ oh-my-zsh installed"
 echo "🚧 configuring oh-my-zsh..."
 ln -sf ${DOTFILES_OMZ_DIR}/.zshrc ~/.zshrc
 ln -sf ${DOTFILES_OMZ_DIR}/.p10k.zsh ~/.p10k.zsh
-ln -sf ${DOTFILES_OMZ_DIR}/custom/plugins/* ~/.oh-my-zsh/custom/plugins/
-ln -sf ${DOTFILES_OMZ_DIR}/custom/themes/* ~/.oh-my-zsh/custom/themes/
+rm -rf ~/.oh-my-zsh/custom
+ln -sf ${DOTFILES_OMZ_DIR}/custom ~/.oh-my-zsh/custom
 echo "✅ oh-my-zsh configured"
