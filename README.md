@@ -33,16 +33,17 @@ The following binaries will be installed and made available for immediate use:
 
 Additionally, if running on OSX, the following apps will be installed:
 
-- [1Password](https://1password.com/)
-- [Bartender](https://www.macbartender.com/)
-- [Discord](https://discord.com/)
-- [Docker](https://www.docker.com/)
-- [Google Chrome](https://www.google.com/chrome/)
-- [Hyper](https://hyper.is/)
-- [Raycast](https://raycast.com/)
-- [Slack](https://slack.com/intl/en-cr/)
-- [Visual Studio Code](https://code.visualstudio.com/)
-- [WhatsApp](https://www.whatsapp.com/)
+- [1Password](https://1password.com)
+- [Arc](https://arc.net)
+- [Bartender](https://macbartender.com)
+- [Discord](https://discord.com)
+- [Docker](https://docker.com)
+- [Google Chrome](https://google.com/chrome)
+- [Hyper](https://hyper.is)
+- [Raycast](https://raycast.com)
+- [Slack](https://slack.com/intl/en-cr)
+- [Visual Studio Code](https://code.visualstudio.com)
+- [WhatsApp](https://whatsapp.com)
 
 ### Oh my ZSH
 

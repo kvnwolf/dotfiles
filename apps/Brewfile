@@ -1,4 +1,5 @@
 cask "1password"
+cask "arc"
 cask "bartender"
 cask "discord"
 cask "docker"
