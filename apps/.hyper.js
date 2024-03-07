@@ -2,6 +2,126 @@
 // which will not automatically be merged into this file.
 // See https://hyper.is#cfg for all currently supported options.
 
+const base = {
+  1: "#101211",
+  2: "#171918",
+  3: "#202221",
+  4: "#272a29",
+  5: "#2e3130",
+  6: "#373b39",
+  7: "#444947",
+  8: "#5b625f",
+  9: "#63706b",
+  10: "#717d79",
+  11: "#adb5b2",
+  12: "#eceeed",
+}
+
+const accent = {
+  1: "#0e1515",
+  2: "#0f1b1b",
+  3: "#092c2b",
+  4: "#003a38",
+  5: "#004744",
+  6: "#105650",
+  7: "#1e685f",
+  8: "#277f70",
+  9: "#86ead4",
+  10: "#a8f5e5",
+  11: "#58d5ba",
+  12: "#c4f5e1",
+}
+
+const blue = {
+  1: "#0d1520",
+  2: "#111927",
+  3: "#0d2847",
+  4: "#003362",
+  5: "#004074",
+  6: "#104d87",
+  7: "#205d9e",
+  8: "#2870bd",
+  9: "#0090ff",
+  10: "#3b9eff",
+  11: "#70b8ff",
+  12: "#c2e6ff",
+}
+
+const cyan = {
+  1: "#0b161a",
+  2: "#101b20",
+  3: "#082c36",
+  4: "#003848",
+  5: "#004558",
+  6: "#045468",
+  7: "#12677e",
+  8: "#11809c",
+  9: "#00a2c7",
+  10: "#23afd0",
+  11: "#4ccce6",
+  12: "#b6ecf7",
+}
+
+const green = {
+  1: "#0e1512",
+  2: "#121b17",
+  3: "#132d21",
+  4: "#113b29",
+  5: "#174933",
+  6: "#20573e",
+  7: "#28684a",
+  8: "#2f7c57",
+  9: "#30a46c",
+  10: "#33b074",
+  11: "#3dd68c",
+  12: "#b1f1cb",
+}
+
+const magenta = {
+  1: "#191117",
+  2: "#21121d",
+  3: "#37172f",
+  4: "#4b143d",
+  5: "#591c47",
+  6: "#692955",
+  7: "#833869",
+  8: "#a84885",
+  9: "#d6409f",
+  10: "#de51a8",
+  11: "#ff8dcc",
+  12: "#fdd1ea",
+}
+
+const red = {
+  1: "#191111",
+  2: "#201314",
+  3: "#3b1219",
+  4: "#500f1c",
+  5: "#611623",
+  6: "#72232d",
+  7: "#8c333a",
+  8: "#b54548",
+  9: "#e5484d",
+  10: "#ec5d5e",
+  11: "#ff9592",
+  12: "#ffd1d9",
+}
+
+const yellow = {
+  1: "#14120b",
+  2: "#1b180f",
+  3: "#2d2305",
+  4: "#362b00",
+  5: "#433500",
+  6: "#524202",
+  7: "#665417",
+  8: "#836a21",
+  9: "#ffe629",
+  10: "#ffff57",
+  11: "#f5e147",
+  12: "#f6eeb4",
+}
+
 module.exports = {
   config: {
     // choose either `'stable'` for receiving highly polished,
@@ -27,7 +147,7 @@ module.exports = {
     letterSpacing: 1,
 
     // terminal cursor background color and opacity (hex, rgb, hsl, hsv, hwb or cmyk)
-    cursorColor: "rgba(248,28,229,0.8)",
+    cursorColor: accent[9],
 
     // terminal text color under BLOCK cursor
     cursorAccentColor: "#000",
@@ -39,17 +159,17 @@ module.exports = {
     cursorBlink: false,
 
     // color of the text
-    foregroundColor: "#fff",
+    foregroundColor: base[12],
 
     // terminal background color
     // opacity is only supported on macOS
-    backgroundColor: "#000",
+    backgroundColor: base[1],
 
     // terminal selection color
-    selectionColor: "rgba(248,28,229,0.3)",
+    selectionColor: accent[5],
 
     // border color (window, tabs)
-    borderColor: "#333",
+    borderColor: base[6],
 
     // custom CSS to embed in the main window
     css: "",
@@ -73,22 +193,22 @@ module.exports = {
     // including the 6 x 6 color cubes and the grayscale map, just provide
     // an array here instead of a color map object
     colors: {
-      black: "#000000",
-      red: "#C51E14",
-      green: "#1DC121",
-      yellow: "#C7C329",
-      blue: "#0A2FC4",
-      magenta: "#C839C5",
-      cyan: "#20C5C6",
-      white: "#C7C7C7",
-      lightBlack: "#686868",
-      lightRed: "#FD6F6B",
-      lightGreen: "#67F86F",
-      lightYellow: "#FFFA72",
-      lightBlue: "#6A76FB",
-      lightMagenta: "#FD7CFC",
-      lightCyan: "#68FDFE",
-      lightWhite: "#FFFFFF",
+      white: base[12],
+      lightWhite: "#ffffff",
+      black: "#000",
+      lightBlack: base[10],
+      blue: blue[10],
+      lightBlue: blue[11],
+      cyan: cyan[10],
+      lightCyan: cyan[11],
+      green: green[10],
+      lightGreen: green[11],
+      magenta: magenta[10],
+      lightMagenta: magenta[11],
+      red: red[10],
+      lightRed: red[11],
+      yellow: yellow[10],
+      lightYellow: yellow[11],
     },
 
     // the shell to run when spawning a new session (i.e. /usr/local/bin/fish)
@@ -146,7 +266,7 @@ module.exports = {
   //   `hyperpower`
   //   `@company/project`
   //   `project#1.0.1`
-  plugins: ["hypercwd", "hyper-rose-pine", "hyper-hide-title"],
+  plugins: ["hypercwd", /*  "xi-hyper", */ "hyper-hide-title"],
 
   // in development, you can create a directory under
   // `~/.hyper_plugins/local/` and include it here
