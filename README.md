@@ -23,11 +23,11 @@ This setup uses [Oh My ZSH](https://ohmyz.sh) with the [Powerlevel10k](https://g
 The following binaries will be installed and made available for immediate use:
 
 - [`brew`](https://brew.sh/index_es)
-- [`gh`](https://cli.github.com/)
-- [`jq`](https://stedolan.github.io/jq/)
-- [`tree`](http://mama.indstate.edu/users/ice/tree/)
+- [`bun`](https://bun.sh)
+- [`gh`](https://cli.github.com)
+- [`jq`](https://stedolan.github.io/jq)
 - [`n`](https://www.npmjs.com/package/n)
-- [`node`](https://nodejs.org)
+- [`tree`](http://mama.indstate.edu/users/ice/tree)
 
 ### Apps
 

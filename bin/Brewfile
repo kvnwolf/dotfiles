@@ -1,4 +1,6 @@
 brew "gh"
 brew "jq"
-brew "tree"
 brew "n"
+tap "oven-sh/bun"
+brew "oven-sh/bun/bun"
+brew "tree"
