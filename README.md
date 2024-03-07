@@ -41,7 +41,8 @@ Additionally, if running on OSX, the following apps will be installed:
 - [Google Chrome](https://google.com/chrome)
 - [Hyper](https://hyper.is)
 - [Raycast](https://raycast.com)
-- [Slack](https://slack.com/intl/en-cr)
+- [Slack](https://slack.com)
+- [Spark](https://sparkmailapp.com)
 - [Visual Studio Code](https://code.visualstudio.com)
 - [WhatsApp](https://whatsapp.com)
 
