@@ -17,4 +17,5 @@ brew cleanup
 export N_PREFIX=$HOME/.n
 export PATH=$N_PREFIX/bin:$PATH
 n lts
+ln -sf ${DOTFILES_BIN_DIR}/.gitconfig ~/.gitconfig
 echo "✅ binaries installed"

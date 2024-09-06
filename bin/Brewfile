@@ -1,4 +1,5 @@
 brew "gh"
+brew "git-delta"
 brew "jq"
 brew "n"
 tap "oven-sh/bun"
