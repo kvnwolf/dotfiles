@@ -123,7 +123,7 @@ fi
 # General
 alias reload="source ~/.zshrc && echo 'Profile reloaded'"
 function mcd() { mkdir -p $1 && cd $_ }
-alias proj="cd ~/projects"
+alias proj="cd ~/Projects"
 
 # Git
 alias gpb="git checkout -"
@@ -132,13 +132,38 @@ function gacp () { gac $1 && gp }
 alias gac!="gaa && gcan!"
 alias gacp!="gac! && gpf!"
 
-# pnpm
-export PNPM_HOME="/Users/kevinwolf/Library/pnpm"
-export PATH="$PNPM_HOME:$PATH"
-# pnpm end
-
-# docker
+# Docker
 export PATH="$PATH:/Applications/Docker.app/Contents/Resources/bin/"
+
+# Bun
+alias b='bun'
+alias ba='b add'
+alias bad='ba --dev'
+alias bag='ba --global'
+alias bc='b create'
+alias bi='b init'
+alias bin='b install'
+alias bls='b pm ls'
+alias blsg='bls --global'
+alias br='b run'
+alias brb='br build'
+alias brc='br check'
+alias brdu='br deps:update'
+alias brd='br dev'
+alias brs='br start'
+alias brt='br test'
+alias brtc='brt --coverage'
+alias brm='b remove'
+alias brmg='brm --global'
+alias bu='b update'
+alias bug='bu --global'
+alias bx='b x'
+
+# Shadcn
+alias scn='bx shadcn@latest'
+alias scna='scn add'
+alias scnd='scn diff'
+alias scni='scn init'
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh

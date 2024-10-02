@@ -1,7 +1,3 @@
-[submodule "oh-my-zsh/custom/plugins/bun"]
-	path = oh-my-zsh/custom/plugins/bun
-	url = https://github.com/ntnyq/omz-plugin-bun
-
 [submodule "oh-my-zsh/custom/plugins/zsh-autosuggestions"]
 	path = oh-my-zsh/custom/plugins/zsh-autosuggestions
 	url = https://github.com/zsh-users/zsh-autosuggestions.git
