@@ -1,14 +1,12 @@
 # 💻 Kevin Wolf's Dotfiles
 
-![Terminal](./.github/images/terminal.png)
-
 ## What is this?
 
 A set of shell scripts used to setup a new OSX system using opinionated tools and conventions.
 
 ## Pre-requisites
 
-This setup uses [Oh My ZSH](https://ohmyz.sh) with the [Powerlevel10k](https://github.com/romkatv/powerlevel10k#meslo-nerd-font-patched-for-powerlevel10k) theme. So make sure to configure your terminal to use the [Meslo Nerd Font](https://github.com/romkatv/powerlevel10k#meslo-nerd-font-patched-for-powerlevel10k).
+This setup uses [Oh My ZSH](https://ohmyz.sh) with [Starship](https://starship.rs) as the prompt. Make sure to configure your terminal to use a [Nerd Font](https://www.nerdfonts.com/) for the best experience.
 
 ## Usage
 
@@ -26,6 +24,7 @@ The following binaries will be installed and made available for immediate use:
 - [`bun`](https://bun.sh)
 - [`gh`](https://cli.github.com)
 - [`jq`](https://stedolan.github.io/jq)
+- [`starship`](https://starship.rs)
 - [`tree`](http://mama.indstate.edu/users/ice/tree)
 
 ### Apps
@@ -49,7 +48,7 @@ Oh my ZSH will be downloaded and installed with the following configuration:
 
 #### Theme
 
-- [Powerlevel10k](https://github.com/romkatv/powerlevel10k#meslo-nerd-font-patched-for-powerlevel10k)
+- [Starship](https://starship.rs) - A minimal, blazing-fast, and infinitely customizable prompt
 
 #### Plugins
 

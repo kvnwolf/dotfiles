@@ -9,5 +9,4 @@ if [[ "$(uname -m)" == "arm64" ]]; then
 fi
 brew bundle --file="${DOTFILES_APPS_DIR}/Brewfile" --quiet
 brew cleanup
-ln -sf ${DOTFILES_APPS_DIR}/.hyper.js ~/.hyper.js
 echo "✅ apps installed"
