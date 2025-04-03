@@ -10,8 +10,6 @@ echo "✅ oh-my-zsh installed"
 
 echo "🚧 configuring oh-my-zsh..."
 ln -sf ${DOTFILES_OMZ_DIR}/.zshrc ~/.zshrc
-mkdir -p ~/.config
-ln -sf ${DOTFILES_OMZ_DIR}/starship.toml ~/.config/starship.toml
 rm -rf ~/.oh-my-zsh/custom
 ln -sf ${DOTFILES_OMZ_DIR}/custom ~/.oh-my-zsh/custom
 echo "✅ oh-my-zsh configured"

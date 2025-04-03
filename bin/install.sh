@@ -14,8 +14,7 @@ brew update
 brew upgrade
 brew bundle --file="${DOTFILES_BIN_DIR}/Brewfile" --quiet
 brew cleanup
-export N_PREFIX=$HOME/.n
-export PATH=$N_PREFIX/bin:$PATH
-n lts
 ln -sf ${DOTFILES_BIN_DIR}/.gitconfig ~/.gitconfig
+mkdir -p ~/.config
+ln -sf ${DOTFILES_BIN_DIR}/starship.toml ~/.config/starship.toml
 echo "✅ binaries installed"

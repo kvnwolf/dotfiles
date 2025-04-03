@@ -24,10 +24,12 @@ right_format = "$all"
 
 [bun]
 symbol = " "
-format = ' [$symbol($version)]($style)'
+format = ' [\[$symbol($version)\]]($style)'
+style = "dimmed"
 
 [cmd_duration]
-format = ' [\[$duration\]]($style)'
+format = ' [\[ $duration\]]($style)'
+style = "dimmed"
 
 [directory]
 disabled = true
@@ -43,32 +45,39 @@ style = "cyan bold"
 
 [docker_context]
 symbol = " "
-format = '[$symbol$context]($style)'
+format = ' [\[$symbol$context\]($style)]'
+style = "dimmed"
 
 [dotnet]
 symbol = ".NET "
-format = ' [$symbol($version)]($style)'
+format = ' [\[$symbol($version)\]($style)]'
+style = "dimmed"
 
 [git_branch]
 symbol = " "
 format = '[$symbol$branch]($style)'
+style = "bold"
 
 [git_commit]
 tag_symbol = '  '
 
 [git_status]
-format = ' ([\($all_status$ahead_behind\)]($style))'
+format = ' ([$all_status$ahead_behind]($style))'
+style = "yellow"
 
 [hostname]
 ssh_symbol = " "
+style = "dimmed"
 
 [nodejs]
 symbol = " "
-format = ' [$symbol($version)]($style)'
+format = ' [\[$symbol($version)\]]($style)'
 detect_files = [ "package.json", "!bun.lockb" ]
+style = "dimmed"
 
 [os]
 format = '[$symbol]($style)'
+style = "dimmed"
 
 [os.symbols]
 Alpaquita = " "
@@ -119,15 +128,17 @@ Windows = "󰍲 "
 
 [package]
 symbol = "󰏗 "
-format = '[$symbol$version]($style)'
+format = '[\[$symbol$version\]]($style)'
+style = "dimmed"
 
 [sudo]
 format = '[as $symbol]($style)'
+style = "dimmed"
 
 [time]
 disabled = false
 time_format = "%R"
-format = ' [\[$time\]]($style)'
+format = ' [\[ $time\]]($style)'
 style = "dimmed"
 
 [username]
