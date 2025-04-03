@@ -26,7 +26,6 @@ The following binaries will be installed and made available for immediate use:
 - [`bun`](https://bun.sh)
 - [`gh`](https://cli.github.com)
 - [`jq`](https://stedolan.github.io/jq)
-- [`n`](https://www.npmjs.com/package/n)
 - [`tree`](http://mama.indstate.edu/users/ice/tree)
 
 ### Apps
@@ -36,14 +35,12 @@ Additionally, if running on OSX, the following apps will be installed:
 - [1Password](https://1password.com)
 - [Arc](https://arc.net)
 - [Bartender](https://macbartender.com)
+- [Cursor](https://cursor.com)
 - [Discord](https://discord.com)
 - [Docker](https://docker.com)
-- [Google Chrome](https://google.com/chrome)
-- [Hyper](https://hyper.is)
+- [Ghostty](https://ghostty.org)
 - [Raycast](https://raycast.com)
-- [Slack](https://slack.com)
 - [Spark](https://sparkmailapp.com)
-- [Visual Studio Code](https://code.visualstudio.com)
 - [WhatsApp](https://whatsapp.com)
 
 ### Oh my ZSH

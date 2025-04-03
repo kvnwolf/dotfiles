@@ -1,7 +1,6 @@
 brew "gh"
 brew "git-delta"
 brew "jq"
-brew "n"
 tap "oven-sh/bun"
 brew "oven-sh/bun/bun"
 brew "tree"
