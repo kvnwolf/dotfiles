@@ -73,7 +73,7 @@ Oh my ZSH will be downloaded and installed with the following configuration:
 | -------- | ----------------------------------------------------------------------- | ----------------- |
 | `reload` | reload the terminal (useful when changing terminal init configurations) | `reload`          |
 | `mcd`    | create a directory and `cd` into it                                     | `mcd my-dir-name` |
-| `proj`   | change to projects directory (`~/projects`)                             | `proj`            |
+| `dev`    | change to developer directory (`~/Developer`)                           | `dev`            |
 
 #### Git
 

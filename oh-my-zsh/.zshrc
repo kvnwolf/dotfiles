@@ -123,7 +123,7 @@ fi
 # General
 alias reload="source ~/.zshrc && echo 'Profile reloaded'"
 function mcd() { mkdir -p $1 && cd $_ }
-alias proj="cd ~/Projects"
+alias dev="cd ~/Developer"
 
 # Git
 alias gpb="git checkout -"
@@ -146,18 +146,15 @@ alias bin='b install'
 alias bls='b pm ls'
 alias blsg='bls --global'
 alias br='b run'
-alias brb='br build'
-alias brc='br check'
-alias brdu='br deps:update'
-alias brd='br dev'
-alias brs='br start'
-alias brt='br test'
-alias brtc='brt --coverage'
 alias brm='b remove'
 alias brmg='brm --global'
 alias bu='b update'
 alias bug='bu --global'
 alias bx='b x'
+
+# Cursor
+alias c='cursor'
+alias cr='c -r'
 
 # Shadcn
 alias scn='bx shadcn@latest'
