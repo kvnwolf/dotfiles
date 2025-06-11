@@ -14,33 +14,52 @@ This setup uses [Oh My ZSH](https://ohmyz.sh) with [Starship](https://starship.r
 2. Run the setup script: `sh install.sh`
 3. Enjoy your new setup! 🍻
 
+## Installation Structure
+
+The installation process is divided into three main components, each with its own interactive prompt:
+
+### 1. Oh My ZSH Setup (`oh-my-zsh/install.sh`)
+- Downloads and installs Oh My ZSH
+- Configures custom theme and plugins
+- Sets up `.zshrc` configuration
+
+### 2. Binaries Installation (`bin/install.sh`)
+- Installs Homebrew (if not present)
+- Installs command-line tools and utilities
+- Configures Git and Starship prompt
+
+### 3. Applications Installation (`apps/install.sh`)
+- Installs desktop applications via Homebrew Cask
+- GUI applications for productivity and development
+
 ## What's included
 
 ### Binaries
 
 The following binaries will be installed and made available for immediate use:
 
-- [`brew`](https://brew.sh/index_es)
-- [`bun`](https://bun.sh)
-- [`gh`](https://cli.github.com)
-- [`jq`](https://stedolan.github.io/jq)
-- [`starship`](https://starship.rs)
-- [`tree`](http://mama.indstate.edu/users/ice/tree)
+- [`brew`](https://brew.sh/index_es) - Package manager for macOS
+- [`bun`](https://bun.sh) - Fast all-in-one JavaScript runtime
+- [`gh`](https://cli.github.com) - GitHub CLI
+- [`git-delta`](https://github.com/dandavison/delta) - Syntax-highlighting pager for git
+- [`jq`](https://stedolan.github.io/jq) - Command-line JSON processor
+- [`starship`](https://starship.rs) - Cross-shell prompt
+- [`tree`](http://mama.indstate.edu/users/ice/tree) - Directory tree viewer
 
 ### Apps
 
 Additionally, if running on OSX, the following apps will be installed:
 
-- [1Password](https://1password.com)
-- [Arc](https://arc.net)
-- [Bartender](https://macbartender.com)
-- [Cursor](https://cursor.com)
-- [Discord](https://discord.com)
-- [Docker](https://docker.com)
-- [Ghostty](https://ghostty.org)
-- [Raycast](https://raycast.com)
-- [Spark](https://sparkmailapp.com)
-- [WhatsApp](https://whatsapp.com)
+- [1Password](https://1password.com) - Password manager
+- [Arc](https://arc.net) - Modern web browser
+- [Cursor](https://cursor.com) - AI-powered code editor
+- [Discord](https://discord.com) - Communication platform
+- [Ghostty](https://ghostty.org) - Fast terminal emulator
+- [OrbStack](https://orbstack.dev) - Docker & Linux VMs
+- [Raycast](https://raycast.com) - Productivity launcher
+- [Spark](https://sparkmailapp.com) - Email client
+- [Vanilla](https://matthewpalmer.net/vanilla) - Menu bar organizer
+- [WhatsApp](https://whatsapp.com) - Messaging app
 
 ### Oh my ZSH
 
