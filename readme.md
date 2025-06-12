@@ -38,6 +38,7 @@ The installation process is divided into three main components, each with its ow
 
 The following binaries will be installed and made available for immediate use:
 
+- [`bat`](https://github.com/sharkdp/bat) - A cat(1) clone with syntax highlighting and Git integration
 - [`brew`](https://brew.sh/index_es) - Package manager for macOS
 - [`bun`](https://bun.sh) - Fast all-in-one JavaScript runtime
 - [`gh`](https://cli.github.com) - GitHub CLI
