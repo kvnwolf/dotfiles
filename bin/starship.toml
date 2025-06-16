@@ -45,7 +45,7 @@ style = "cyan bold"
 
 [docker_context]
 symbol = " "
-format = ' [\[$symbol$context\]($style)]'
+format = ' [\[$symbol$context\]]($style)'
 style = "dimmed"
 
 [dotnet]
