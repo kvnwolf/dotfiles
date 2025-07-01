@@ -161,3 +161,5 @@ export PATH="$BUN_INSTALL/bin:$PATH"
 
 # Initialize Starship
 eval "$(starship init zsh)"
+
+alias claude="/Users/kevinwolfcr/.claude/local/claude"
