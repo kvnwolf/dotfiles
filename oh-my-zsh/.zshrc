@@ -147,6 +147,7 @@ alias bx='b x'
 # Cursor
 alias c='cursor'
 alias cr='c -r'
+alias code='c'
 
 # Shadcn
 alias scn='bx shadcn@latest'
@@ -159,7 +160,12 @@ export BUN_INSTALL="$HOME/.bun"
 export PATH="$BUN_INSTALL/bin:$PATH"
 [ -s "$HOME/.bun/_bun" ] && source "$HOME/.bun/_bun"
 
+# Claude
+alias claude="/Users/kevinwolfcr/.claude/local/claude"
+
+# Bat
+alias cat='bat'
+
 # Initialize Starship
 eval "$(starship init zsh)"
 
-alias claude="/Users/kevinwolfcr/.claude/local/claude"
