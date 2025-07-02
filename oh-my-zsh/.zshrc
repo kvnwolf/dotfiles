@@ -144,6 +144,18 @@ alias bu='b update'
 alias bug='bu --global'
 alias bx='b x'
 
+# NPM
+alias na='npm add'
+alias nad='na --save-dev'
+alias nag='na --global'
+alias nagd='nag --save-dev'
+alias ni='npm install'
+alias nr='npm run'
+alias nrm='npm remove'
+alias nrmg='nrm --global'
+alias nx='npx'
+
+
 # Cursor
 alias c='cursor'
 alias cr='c -r'
