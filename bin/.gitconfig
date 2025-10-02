@@ -1,6 +1,6 @@
 [user]
 	name = Kevin Wolf
-	email = hi@kevinwolf.cr
+	email = kevinvillaloboscr@gmail.com
 
 [credential]
 	helper = store
@@ -33,4 +33,12 @@
 	colorMoved = default
 
 [include]
-	path = .gitconfig-custom
+	path = ~/.gitconfig-custom
+
+[credential "https://github.com"]
+	helper = 
+	helper = !/opt/homebrew/bin/gh auth git-credential
+	
+[credential "https://gist.github.com"]
+	helper = 
+	helper = !/opt/homebrew/bin/gh auth git-credential
