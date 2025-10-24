@@ -1,4 +1,5 @@
 brew "bat"
+cask "claude"
 brew "gh"
 brew "git-delta"
 brew "jq"

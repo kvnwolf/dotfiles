@@ -168,3 +168,6 @@ alias cat='bat'
 
 # Initialize Starship
 eval "$(starship init zsh)"
+
+# bun completions
+[ -s "/Users/kevinwolfcr/.bun/_bun" ] && source "/Users/kevinwolfcr/.bun/_bun"
