@@ -1,4 +1,4 @@
-# 💻 Kevin Wolf's Dotfiles
+kk# 💻 Kevin Wolf's Dotfiles
 
 ## What is this?
 
@@ -10,7 +10,24 @@ This setup uses [Oh My ZSH](https://ohmyz.sh) with [Starship](https://starship.r
 
 ## Usage
 
-1. Clone this repo: `git clone --recursive https://github.com/elkevinwolf/dotfiles`
+### Quick Install (Recommended)
+
+Run this one-liner to install everything:
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/kvnwolf/dotfiles/main/bootstrap.sh | bash
+```
+
+The installer will:
+- Ask where you want to install the dotfiles (default: `~/Developer/github.com/kvnwolf/dotfiles`)
+- Clone the repository
+- Run the installation script automatically
+
+### Manual Install
+
+Alternatively, you can install manually:
+
+1. Clone this repo: `git clone --recursive https://github.com/kvnwolf/dotfiles`
 2. Run the setup script: `sh install.sh`
 3. Enjoy your new setup! 🍻
 
