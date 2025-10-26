@@ -1,4 +1,4 @@
-kk# 💻 Kevin Wolf's Dotfiles
+# 💻 Kevin Wolf's Dotfiles
 
 ## What is this?
 
