@@ -70,13 +70,13 @@ Additionally, if running on OSX, the following apps will be installed:
 
 - [1Password](https://1password.com) - Password manager
 - [Arc](https://arc.net) - Modern web browser
-- [Cursor](https://cursor.com) - AI-powered code editor
 - [Discord](https://discord.com) - Communication platform
 - [Ghostty](https://ghostty.org) - Fast terminal emulator
 - [OrbStack](https://orbstack.dev) - Docker & Linux VMs
 - [Raycast](https://raycast.com) - Productivity launcher
 - [Spark](https://sparkmailapp.com) - Email client
 - [Vanilla](https://matthewpalmer.net/vanilla) - Menu bar organizer
+- [Visual Studio Code](https://code.visualstudio.com/) - Code editor
 - [WhatsApp](https://whatsapp.com) - Messaging app
 
 ### Oh my ZSH

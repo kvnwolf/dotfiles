@@ -144,10 +144,9 @@ alias bu='b update'
 alias bug='bu --global'
 alias bx='b x'
 
-# Cursor
-alias c='cursor'
+# VSCode
+alias c='code'
 alias cr='c -r'
-alias code='c'
 
 # Shadcn
 alias scn='bx shadcn@latest'
